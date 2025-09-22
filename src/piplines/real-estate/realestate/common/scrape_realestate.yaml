@@ -1,0 +1,27 @@
+ops:
+  collect_search_criterias:
+    inputs:
+      # PLEASE be aware, settings below will scrape the website. Everything shown here is demonstrated for learning purposes only. Before you begin, make sure you don’t violate the copyright of any website and always be friendly when scraping.
+      search_criterias:
+        # - city: Bern
+        #   propertyType: real-estate
+        #   radius: 0
+        #   rentOrBuy: buy
+        # - city: Solothurn
+        #   propertyType: real-estate
+        #   radius: 0
+        #   rentOrBuy: buy
+        - city: twann
+          propertyType: real-estate
+          radius: 0
+          rentOrBuy: buy
+        # - city: biel-bienne
+        #   propertyType: real-estate
+        #   radius: 0
+        #   rentOrBuy: buy
+  data_exploration:
+    inputs:
+      # delta_path: s3a://real-estate/lake/bronze/property
+      key: minio
+      secret: miniostorage
+      endpoint: http://127.0.0.1:9000
