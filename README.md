@@ -16,7 +16,7 @@ This project implements a **fully automated end-to-end data engineering pipeline
 
 ## AWS Architecture (Conceptual)
 
-![AWS Architecture](A_diagram_in_the_image_illustrates_an_end-to-end_d.png)
+![AWS Architecture](images/dcfe9c05-94fe-4872-a922-7222785b2249.png)
 
 This architecture allows data to flow seamlessly from **web scraping → AWS S3 → Spark processing → Delta Lake storage → Dagster orchestration → Superset dashboards**.  
 
